@@ -36,3 +36,11 @@ func NewSR(threshold float64, windowAmp int, windowLocal int, numEstPoints int, 
 func (sr SR) InferThreshold(){
 
 }
+
+func (sr SR) SaliencyMap() {
+
+}
+
+func (sr SR) ComputeGrads() {
+
+}
