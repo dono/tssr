@@ -32,6 +32,7 @@ func NewSR(threshold float64, windowAmp int, windowLocal int, numEstPoints int, 
 	}
 }
 
+// ToDo: online mode. what number of window shift width
 
 func (sr SR) InferThreshold(){
 
@@ -44,3 +45,4 @@ func (sr SR) SaliencyMap() {
 func (sr SR) ComputeGrads() {
 
 }
+
