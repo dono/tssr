@@ -38,11 +38,19 @@ func (sr SR) InferThreshold(){
 
 }
 
-func (sr SR) SaliencyMap() {
+func (sr SR) saliencyMap() {
 
 }
 
-func (sr SR) ComputeGrads() {
+func (sr SR) computeGrads() {
+
+}
+
+func (sr SR) add_est_points() {
+
+}
+
+func (sr SR) Score() {
 
 }
 
